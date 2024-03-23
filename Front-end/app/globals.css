@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login {
+    background-image: url('../public/images/pharmacy-bg-login.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.to-print {
+    display: none;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pos-background {
+    background-image: url('../public/images/pos-background.avif');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.stocks {
+    background: rgb(196, 251, 255);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inventories {
+    background-image: url('../public/images/inventories-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.items {
+    background-image: url('../public/images/item-background.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.archive-background {
+    background-image: url('../public/images/archive-background.webp');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.archive-header-background {
+    background-image: url('../public/images/archive-header.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header-background {
+    background: rgb(255, 255, 255);
+    background-position: center;
+    background-size: 100% 400%;
+    background-repeat: no-repeat;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    .to-print {
+        display: block;
+        font-size: 1.25rem;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(22 78 99);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(34 211 238);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
